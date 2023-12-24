@@ -7,6 +7,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -21,12 +26,6 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 100%;
-}
-.header-logo {
-  max-width: 100px;
-}
-.header-logo img {
-  width: 100%;
 }
 .header-buttons {
   display: flex;
@@ -51,4 +50,38 @@ body {
 .header-basket {
   border: 1px solid #D9D9D9;
   color: #595959;
+}
+
+.logo {
+  max-width: 100px;
+}
+.logo img {
+  width: 100%;
+}
+
+.footer {
+  height: 156px;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  gap: 35px;
+}
+.footer-list {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #595959;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 21px;
 }
