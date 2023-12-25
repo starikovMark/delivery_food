@@ -9,75 +9,113 @@
     <title>Delivery Food</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header-wrapper">
-          <a href="./" class="header-logo logo">
-            <img src="./img/logo.png" alt="logo" />
-          </a>
-          <div class="header-buttons">
-            <a href="#" class="header-login header-button">
-              <svg class="header-login-svg" width="16" height="16">
-                <use href="./img/svg/sprites.svg#login"></use>
-              </svg>
-              Войти
+    <div class="page-wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-wrapper">
+            <a href="./" class="header-logo logo">
+              <img src="./img/logo.png" alt="logo" />
             </a>
-            <a href="#" class="header-basket header-button">
-              <svg class="header-basket-svg" width="16" height="16">
-                <use href="./img/svg/sprites.svg#basket"></use>
-              </svg>
-              Корзина
-            </a>
+            <div class="header-buttons">
+              <a href="#" class="header-login header-button">
+                <svg class="header-login-svg" width="16" height="16">
+                  <use href="./img/svg/sprites.svg#login"></use>
+                </svg>
+                Войти
+              </a>
+              <a href="#" class="header-basket header-button">
+                <svg class="header-basket-svg" width="16" height="16">
+                  <use href="./img/svg/sprites.svg#basket"></use>
+                </svg>
+                Корзина
+              </a>
+            </div>
           </div>
+          <!-- /.header-wrapper -->
         </div>
-        <!-- /.header-wrapper -->
-      </div>
-      <!-- /.container -->
-    </header>
-    <!-- ./header -->
-    <main class="main"></main>
-    <!-- ./main -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-wrapper">
-          <a href="./" class="footer-logo logo">
-            <img src="./img/logo.png" alt="logo" />
-          </a>
-          <ul class="footer-list">
-            <li class="footer-list__item">
-              <a href="#" class="footer-list__link">Ресторанам</a>
-            </li>
-            <li class="footer-list__item">
-              <a href="#" class="footer-list__link">Курьерам</a>
-            </li>
-            <li class="footer-list__item">
-              <a href="#" class="footer-list__link">Пресс-центр</a>
-            </li>
-            <li class="footer-list__item">
-              <a href="#" class="footer-list__link">Контакты</a>
-            </li>
-          </ul>
-          <!-- /.footer-list -->
-          <div class="footer-social">
-            <a href="#" class="footer-social__link">
-              <img src="./img/svg/instagram.svg" alt="instagram" />
-            </a>
-            <a href="#" class="footer-social__link">
-              <svg class="footer-svg" width="26" height="26">
-                <use href="./img/svg/sprites.svg#facebook"></use>
-              </svg>
-            </a>
-            <a href="#" class="footer-social__link">
-              <svg class="footer-svg" width="26" height="26">
-                <use href="./img/svg/sprites.svg#vk"></use>
-              </svg>
-            </a>
+        <!-- /.container -->
+      </header>
+      <!-- ./header -->
+      <main class="main">
+        <div class="container">
+          <div class="banner">
+            <div class="banner-text">
+              <h1 class="banner-text__title">
+                Онлайн-сервис доставки еды на дом
+              </h1>
+              <p class="banner-text__subtitle">
+                Блюда из любимого ресторана привезет курьер в перчатках, маске и
+                с антисептиком
+              </p>
+            </div>
+            <!-- /.banner-text -->
+            <img src="./img/banner.png" alt="banner" class="banner-image" />
           </div>
+          <!-- /.banner -->
+          <div class="product">
+            <div class="product-header">
+              <h2 class="product-header__title">Рестораны</h2>
+              <div class="product-header__search">
+                <svg class="product-header__icon" width="18" height="18">
+                  <use href="./img/svg/sprites.svg#search"></use>
+                </svg>
+                <input
+                  type="text"
+                  class="input product-header__input"
+                  placeholder="Поиск блюд и ресторанов"
+                />
+              </div>
+            </div>
+            <!-- /.product-header -->
+          </div>
+          <!-- /.product -->
         </div>
-        <!-- /.footer-wrapper -->
-      </div>
-      <!-- /.container -->
-    </footer>
-    <!-- ./footer -->
+        <!-- /.container -->
+      </main>
+      <!-- ./main -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-wrapper">
+            <a href="./" class="footer-logo logo">
+              <img src="./img/logo.png" alt="logo" />
+            </a>
+            <ul class="footer-list">
+              <li class="footer-list__item">
+                <a href="#" class="footer-list__link">Ресторанам</a>
+              </li>
+              <li class="footer-list__item">
+                <a href="#" class="footer-list__link">Курьерам</a>
+              </li>
+              <li class="footer-list__item">
+                <a href="#" class="footer-list__link">Пресс-центр</a>
+              </li>
+              <li class="footer-list__item">
+                <a href="#" class="footer-list__link">Контакты</a>
+              </li>
+            </ul>
+            <!-- /.footer-list -->
+            <div class="footer-social">
+              <a href="#" class="footer-social__link">
+                <img src="./img/svg/instagram.svg" alt="instagram" />
+              </a>
+              <a href="#" class="footer-social__link">
+                <svg class="footer-svg" width="26" height="26">
+                  <use href="./img/svg/sprites.svg#facebook"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer-social__link">
+                <svg class="footer-svg" width="26" height="26">
+                  <use href="./img/svg/sprites.svg#vk"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- /.footer-wrapper -->
+        </div>
+        <!-- /.container -->
+      </footer>
+      <!-- ./footer -->
+    </div>
+    <!-- /.page-wrapper -->
   </body>
 </html>

@@ -1,0 +1,31 @@
+@media  ( max-width:  1200px)
+    .container
+        max-width: 1024px
+    .banner
+        &-image
+            width: 500px
+            object-fit: cover
+@media (max-width: 1024px)
+    html
+        font-size: 14px
+    .container
+        max-width: 768px
+    .banner
+        flex-direction: column
+        &-image
+            width: 100%
+@media (max-width: 768px)
+    html
+        font-size: 12px
+    .container
+        max-width: 480px
+    .banner
+        padding-left: 1.875rem
+        padding-right: 1.875rem
+        &-text
+            padding: 30px 0
+        &-image
+            display: none
+@media (max-width: 480px)
+    .container
+        max-width: 80%
