@@ -73,7 +73,30 @@
             object-fit: cover
             border-radius: .4375rem .4375rem 0rem 0rem
         &__description
+            display: flex
+            flex-direction: column
             padding: 1.25rem 1.5rem 2.125rem 1.5rem
+            &-controls
+                display: flex
+                align-items: center
+                gap: 1.8125rem
+                &--button
+                    padding: .5rem 1rem
+                    border-radius: .125rem
+                    background-color: #1890FF
+                    display: flex
+                    align-items: center
+                    gap: 4px
+                    color: #fff
+                    font-size: 1rem
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 1.5rem
+                &--price
+                    color: #000
+                    font-size: 1.25rem
+                    font-weight: 700
+                    line-height: 2rem
             &--row
                 display: flex
                 align-items: center
@@ -84,6 +107,8 @@
                 font-size: 1.5rem
                 font-weight: 700
                 line-height: 2rem
+                &.primary
+                    font-weight: 400
             &--time
                 color: #fff
                 font-size: .75rem
@@ -93,6 +118,13 @@
                 padding: 0 8px
                 background-color: #262626
                 border-radius: 2px
+            &--text
+                color: #8C8C8C
+                font-size: 1.125rem
+                font-weight: 400
+                // max-width: 14.8125rem
+                margin-top: .625rem
+                margin-bottom: 1.5rem
             &-info
                 display: flex
                 align-items: center
