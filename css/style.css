@@ -80,6 +80,9 @@ a {
   padding-left: 4.375rem;
   border-radius: 0.625rem;
 }
+.banner-image {
+  max-width: 43.75rem;
+}
 .banner-text {
   max-width: 33.625rem;
   color: #302C34;
@@ -265,7 +268,7 @@ a {
     max-width: 1024px;
   }
   .banner-image {
-    width: 500px;
+    max-width: 500px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -281,7 +284,7 @@ a {
     flex-direction: column;
   }
   .banner-image {
-    width: 100%;
+    display: none;
   }
   .products-wrapper {
     grid-template-columns: repeat(2, 1fr);
